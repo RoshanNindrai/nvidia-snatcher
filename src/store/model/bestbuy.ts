@@ -1,7 +1,6 @@
 import {Store} from './store';
 
 export const BestBuy: Store = {
-	cartUrl: '',
 	links: [
 		{
 			brand: 'asus',
@@ -18,7 +17,7 @@ export const BestBuy: Store = {
 		{
 			brand: 'evga',
 			model: 'xc3 ultra',
-			url: 'https://www.bestbuy.com/site/asus-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-strix-graphics-card-black/6432445.p?skuId=6432445',
+			url: 'https://www.bestbuy.com/site/evga-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card/6432400.p?skuId=6432400',
 			oosLabels: ['sold out', 'coming soon']
 		},
 		{
@@ -33,7 +32,6 @@ export const BestBuy: Store = {
 			url: 'https://www.bestbuy.com/site/gigabyte-geforce-rtx-3080-10g-gddr6x-pci-express-4-0-graphics-card-black/6430621.p?skuId=6430621',
 			oosLabels: ['sold out', 'coming soon']
 		},
-
 		{
 			brand: 'msi',
 			model: 'ventus 3x',
